@@ -1,0 +1,50 @@
+body {
+    background-color: lightblue;
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 80px 80px 80px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin-left: 485px;
+    background-color: black;
+    margin-right: 482px;
+  }
+
+  button {
+    margin-left: 485px;
+    width: 320px;
+    font-weight: 900;
+    background-color: lightgreen;
+  }
+
+  .container>div {
+    background-color: rgba(5, 97, 82, 0.8);
+  }
+
+  .item {
+    text-align: center;
+    font-size: 65px;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+  #messsage {
+    text-align: center;
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  .mcolor {
+    background-color: darkturquoise !important;
+    border: 1px solid mintcream;
+  }
